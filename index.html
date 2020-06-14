@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Javascript painter</title>
 </head>
+
 <body>
-    HI!!
-    <script src="paint.js"></script>
+    <canvas class="canvas"></canvas>
+
+    <div class="control">
+        <div class="control__btns">
+            <button id="jsDraw">그리기</button>
+            <button id="jsFill">채우기</button>
+        </div>
+        <div class="control__colors">
+            <div style="background-color:#FF0000"></div>
+            <div style="background-color:#FF8500"></div>
+            <div style="background-color:#FFF600"></div>
+            <div style="background-color:#00FF0B"></div>
+            <div style="background-color:#003FFF"></div>
+            <div style="background-color:#000000"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
